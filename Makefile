@@ -82,7 +82,7 @@ crd: controller-gen
 # The verify target runs tasks similar to the CI tasks, but without code coverage
 .PHONY: test
 test:
-	@for folder in $$(go mod graph | grep dmitrii-lqc | cut -d' ' -f1 | cut -d@ -f1 | sort -u); do echo "Running unit-tests for: $$folder"; go test -v $$folder || exit 1; echo; done
+	@for folder in $$(go mod graph | grep dmitrii-ageev | cut -d' ' -f1 | cut -d@ -f1 | sort -u); do echo "Running unit-tests for: $$folder"; go test -v $$folder || exit 1; echo; done
 
 # The build targets allow to build the binary and container image
 .PHONY: build

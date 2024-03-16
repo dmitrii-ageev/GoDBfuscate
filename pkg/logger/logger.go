@@ -22,7 +22,7 @@ import (
 	"log/syslog"
 	"os"
 
-	"github.com/dmitrii-lqc/golang-project-template/internal/config"
+	"github.com/dmitrii-ageev/GoDBfuscate/internal/config"
 )
 
 var (

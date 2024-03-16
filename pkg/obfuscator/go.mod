@@ -1,3 +1,3 @@
-module github.com/dmitrii-lqc/golang-project-template/pkg/obfuscator
+module github.com/dmitrii-ageev/GoDBfuscate/pkg/obfuscator
 
 go 1.22.0

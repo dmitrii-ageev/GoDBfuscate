@@ -19,8 +19,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/dmitrii-lqc/golang-project-template/pkg/api"
-	"github.com/dmitrii-lqc/golang-project-template/pkg/logger"
+	"github.com/dmitrii-ageev/GoDBfuscate/pkg/api"
+	"github.com/dmitrii-ageev/GoDBfuscate/pkg/logger"
 )
 
 func main() {

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/dmitrii-lqc/golang-project-template/pkg/logger"
-	"github.com/dmitrii-lqc/golang-project-template/pkg/obfuscator"
+	"github.com/dmitrii-ageev/GoDBfuscate/pkg/logger"
+	"github.com/dmitrii-ageev/GoDBfuscate/pkg/obfuscator"
 )
 
 var jobInProgress = false
