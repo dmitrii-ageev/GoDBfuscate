@@ -1,7 +1,7 @@
-golang-project-template
-=======================
+GoLang DB Obfuscate
+===================
 
-Go Programming Language Project Template
+It's a Project Draft - so far all work on it was stopped, but maybe some time later I will have a chance to finish it.
 
 This repository base on standards described in this [project](https://github.com/golang-standards/project-layout/blob/master/README.md).
 
